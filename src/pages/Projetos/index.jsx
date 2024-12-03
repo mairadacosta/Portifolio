@@ -8,7 +8,7 @@ function Projetos() {
 
     useEffect(() => {
         const buscarRepositorios = async () => {
-            const response = await fetch('https://api.github.com/users/CottaMDM13/repos')
+            const response = await fetch('https://api.github.com/users/mairadacosta/repos')
             const data = await response.json()
             setRepositories(data)
         }
